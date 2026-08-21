@@ -12,13 +12,12 @@ body{
 .container{
     width: 35%;
     border: 3px solid black;
-    margin-top: 20px;
     margin-bottom: 40px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
+    height: 570px;
 }
 
 .display{
@@ -35,10 +34,10 @@ body{
 
 .buttons{
     display: grid;
-    margin-top: 50px;
-    padding: 1rem;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(5, 90px);
+    margin-top: 20px;
+    padding: 0.54rem;
+    grid-template-columns:repeat(4, 110px);
+    grid-template-rows: repeat(6, 70px);
     gap: 5px;
 
 }

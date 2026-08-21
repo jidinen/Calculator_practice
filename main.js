@@ -25,7 +25,7 @@ let all_cleared_btn = document.querySelector(".All_cleared")
 all_cleared_btn.addEventListener("click", ()=>{
 
     if(display_screen.value != "null"){
-
+        arr = []
         display_screen.value = "0";
     }
     
@@ -44,4 +44,9 @@ for (let i = 0; i < active_btn.length; i++) {
     display_screen.value = arr.join('');
   });
 }
+
+
+
+
+
 
